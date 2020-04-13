@@ -1,0 +1,328 @@
+<!--
+Author: Eishnoor Singh Dhanjal
+This is free search software released into the public domain.
+This is a browser feature intended for developers. 
+E.S.D-SEARCH|E.S.D-SEARCH|E.S.D-SEARCH|E.S.D-SEARCH|
+-->
+
+  <head>
+    <title>E.S.D Homepage</title>
+<body bgcolor="#17393b">
+<STYLE>
+Author: Eishnoor Singh Dhanjal
+This is free search software released into the public domain.
+This is a browser feature intended for developers. 
+E.S.D-SEARCH|E.S.D-SEARCH|E.S.D-SEARCH|E.S.D-SEARCH|
+
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+/* BASIC STYLES */
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Mangal;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Clarendon BT";
+	panose-1:2 4 7 4 4 5 5 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'arial', sans-serif;
+}
+
+header {
+  width: 90%;
+}
+
+ul {
+  list-style: none; 
+}
+
+/* NAV BAR */
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 30px;
+}
+
+#nav_bar #ESD {
+  background: #17393b; 
+  margin-right: 50px;
+  padding: 10px 30px;
+  border-radius: 5px; 
+  font-weight: bold;
+}
+
+.nav-links {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+#ESD:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+#ESD {
+  color: #17393b;
+}
+
+/* ESD2 */
+.ESD2 #ESD2 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form {
+  text-align: center;
+}
+
+#txtSearch { 
+  width: 750px;
+  line-height: 50px;
+  padding: 25px 15px;
+}
+
+.form #txtSearch {
+  padding: 0 15px;
+}
+
+/*#txtSearch:hover {
+  border-color: BLACK;
+  padding-top: 0;
+}*/
+
+.buttons {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 80px;
+}
+
+/* FOOTER */
+footer  {
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+/*   position: fixed; */
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  
+}
+
+footer ul li {
+  display: inline;
+  color: #fff;
+  font-size: 14px;
+  padding: 13px;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 500px) {
+ 
+ li.nav-links a {
+    display: none;
+  }
+  
+ #ESD2 {
+   padding: 0;
+ }
+  
+ .buttons {
+   display: none;
+ }
+  
+ #form-search {
+   width: 80%;
+
+ }
+  
+ footer {
+   bottom: 0;
+ }
+  
+ footer ul {
+   float: none;
+   padding-bottom: 2px;
+    
+ }
+  
+ .footer-left {
+   text-align: center;
+   margin: auto; 
+   padding-top: 10px;
+    
+ }
+  
+ .footer-right {
+   float: none;
+   text-align: center;
+   
+ }
+}
+
+@media screen and (max-width: 565px) {
+ 
+  li.nav-links a {
+    display: none;
+  }
+  
+  
+ #ESD2 {
+   padding: 0;
+ }
+  
+ .buttons {
+   display: none;
+ }
+  
+ #form-search {
+   width: 85%;
+
+ }
+  
+ footer {
+/*    bottom: 0;
+   postion: absolute; */
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+ }
+  
+ footer ul {
+   float: none;
+   padding-bottom: 2px;
+    
+ }
+  
+ .footer-left {
+   text-align: center;
+   margin: auto; 
+   padding-top: 10px;
+    
+ }
+  
+ .footer-right {
+   float: none;
+   text-align: center;
+   
+ }
+#InfoOfSearch {
+		display:none;
+		border: 1px solid green;
+		margin:10px;
+		padding:20px;
+	}
+}
+
+</style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="nav_bar">
+          <li class="nav-links" id="nav-links"><a href="https://mail.google.com/mail/u/0/#"><b>Gmail</b></a></li>
+		  <li class="nav-links" id="nav-links"><a href="https://login.yahoo.com/?.src=ym&.lang=en-IN&.intl=in&.done=https%3A%2F%2Fin.mail.yahoo.com%2Fd"><b>Yahoo</b></a></li>
+		  <li class="nav-links" id="nav-links"><a href="https://ICloud.com"><b>I-Cloud</b></a></li>
+		  <li class="nav-links" id="nav-links"><a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1582957491&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3d58d1436f-4f5e-0130-8153-f62ac965be2d&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015"><b>Outlook</b></a></li>
+          <li class="nav-links" id="nav-links"><a href="https://login.aol.com/?done=https%3A%2F%2Fapi.login.aol.com%2Foauth2%2Frequest_auth%3Fclient_id%3Ddj0yJmk9VlN3cDhpNm1Id0szJmQ9WVdrOVdtRm1aMVU1Tm1zbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1mYQ--%26redirect_uri%3Dhttps%253A%252F%252Foidc.mail.aol.com%252Fcallback%26response_type%3Dcode%26scope%3Dmail-r%2520ycal-w%2520openid%2520openid2%2520mail-w%2520mail-x%2520sdps-r%2520msgr-w%26src%3Dmail%26language%3Den-US%26state%3DeyJhbGciOiJSUzI1NiIsImtpZCI6IjZmZjk0Y2RhZDExZTdjM2FjMDhkYzllYzNjNDQ4NDRiODdlMzY0ZjcifQ.eyJyZWRpcmVjdFVyaSI6Imh0dHBzOi8vbWFpbC5hb2wuY29tL19jcXIvbG9naW5TdWNjZXNzPyZzaXRlU3RhdGU9dXYlM0FBT0wlM0JydCUzQVNURCUzQmF0JTNBU05TJTNCbGMlM0Flbl9VUyUzQmxkJTNBbWFpbC5hb2wuY29tJTNCc250JTNBU2NyZWVuTmFtZSUzQnNpZCUzQTIwZThiNTA1LTBmZTItNDIxNS04Yzk4LTNmNWFjOGE1ODNhMCUzQnFwJTNBJTNCJmxhbmc9ZW4mbG9jYWxlPVVTIn0.QmxJ2_eSzBlWyN1ovRXYIy1eiT2O94NRdCd8HKYiVM77M5FNoS8_2n1eCoE21m201ETnzyqDdEe3eyaUps3f3RtRyu1ap2EYmgFzWqFGI8RyynOKCmm6bBObM-eDVKBcItBvdYvidnfrW8QSESUQPF0zidMDsnYtOqvQHl9HCYk%26nonce%3D0FavXxYhlJ5Dg9tfPoQ0dAxDRWNFCNmV&src=mail&crumb=j.wx3slZvYw&redirect_uri=https%3A%2F%2Foidc.mail.aol.com%2Fcallback&lang=en-US&client_id=dj0yJmk9VlN3cDhpNm1Id0szJmQ9WVdrOVdtRm1aMVU1Tm1zbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1mYQ--&language=en-US"><b>Aol</b></a></li>
+          <li id="ESD"><a href="https://github.com/EISHNOOR18/E.S.D-SEARCH">E.S.D</a></li>
+   </header>
+
+<body>
+<iframe src="https://freesecure.timeanddate.com/clock/i786u4wy/n1582/fn3/fs16/ahl/avt/ftb/tt0/tw1/tm2/th2/tb4" frameborder="0" width="125" height="39"></iframe>
+
+<p class=MsoNormal><b><span style='font-size:48.0pt;line-height:105%;Align="centre";
+font-family:"Clarendon BT",serif;color:white'>E.S.D-Search</span></b></p>
+
+    <!-- ESD2 -->  
+    <div class="ESD2">
+      <a href="https://github.com/EISHNOOR18/E.S.D-SEARCH" id="ESD2"> <img src="https://1.bp.blogspot.com/-NLAaj1x4MJU/XloSV2VOJXI/AAAAAAAABZ0/CCv3DDqD9pUW9_qWIaJDBYZORNHfIflIgCLcBGAsYHQ/s1600/E_OFFICIAL%2B-%2BCopy.PNG" id="ESD2"> <alt="Your connection is very slow..."/></a>
+    </div>
+	
+    
+    <!-- FORM SEARCH -->  
+    <div class="form">  
+      <form id="frmSearch"  method="get" />
+<input  type="text" id="txtSearch"     
+placeholder="E.S.D-SEARCH.   Search The World ™ "  />
+
+ <!-- BUTTONS -->
+<div class= "buttons">  
+      <input type="submit" value="Search" id="google_search">
+	  <button type="reset" value="Reset">Clear</button>
+	
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=' + document.getElementById('txtSearch').value;
+        return false ; 
+    }
+</script>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul class="footer-left">
+        <li><a href="https://github.com/EISHNOOR18/E.S.D-SEARCH/blob/master/LICENSE"><i>Privacy</i></a></li>
+        <li><a href="https://github.com/EISHNOOR18/E.S.D-SEARCH/blob/master/LICENSE"><i>About</i></a></li> 
+        </ul>   
+    </footer>      
+  </body>
+  
+<p style="color:White;"><b> <i>ESD-Search</i>   ORIGNAL SITE   . All rights reserved.  </b></p>
+  </html>
